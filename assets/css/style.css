@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 100%;
+    max-width: 600px;
+    background: #232323;
+    color: white;
+}
+div{
+    
+    position: relative;
+    border-radius: 15px;
+    background-size: 100%;
+    margin: 40px 0 0 0; 
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+h1{
+    font-family: "Londrina shadow", cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #aaaaaa;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: #bbbbbb;
+    margin: 0 10px 0 0;
+}
+p{
+    color: rgba(255, 255, 255, 1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    margin: 0;
+    height: auto;
+    width: 95%;
+    overflow: hidden;
+}
+
+img{
+    width: 100%; 
+    display: block;
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 10px; 
+}
+/*0 invisible the text 1 visible*/
+small{
+ 
+    opacity: 0; 
+    margin: auto;
+}
+.price{
+    float: right;
+}
+
+.show-description{
+    height: 150px;
+}
+.show-description small{
+    opacity: 1;
+}
+
+/*media queries for smaller screen or mobile*/
+
+@media (max-width: 500px){
+    h1{
+        font-size: 50px;
+        margin-top: 20px;
+        line-height: 40px;
+    }
+    h2{
+        font-size: 20px;
+        margin: 0 20px, 30px 0;
+    }
+    div{
+        margin: 20px 12px 0 12px;
+    }
+    p{
+        line-height: 24px;
+        font-size: 20px;
+    }
+    small{
+        font-size: 24px;
+    }
+}
+
+
